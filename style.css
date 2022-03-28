@@ -1,0 +1,145 @@
+/* change the navbar's background color */
+.navbar-custom {
+    background-color: #12263A;
+    
+}
+.page-header1{
+    margin-top: -500px;
+}
+.page-header2{
+    margin-top: 100px;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: blue;
+}
+.navbar-brand{
+ 
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color:#C5D8D1
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #06BCC1;
+}
+/* change the color of the lines in the navbar */
+/* change the value of the "stroke"......................................................................................................↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓*/
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/* change the outline color of the navbar's button */
+.navbar-toggler {
+  border-color: rgba(140, 200, 50, 20);
+}
+/* keep's the height of the navbar logo at 54px */
+.navbar-brand img {
+    height: 65px;
+}
+#image3{
+    width:80%;
+}
+#image2{
+    width:80%;
+}
+#image1{
+    width:30%;
+}
+#image7{
+    width:35%;
+}
+#image6{
+    width:60%;
+}
+
+.jumbotron{
+    background-color:#06BCC1;
+    width:90%;
+}
+.about{
+    background-color:#C5D8D1;
+}
+.About-me{
+    font:verdana;
+    Color:#F4EDEA;
+    font-size:40px;
+
+}
+.container-fluid{
+    margin-top:100px;
+}
+.card{
+    background-color:lightblue;
+
+}
+h5{
+    color:white;
+    font-size:.0001px;
+      
+}
+thead{
+        margin:0;
+}
+
+/* Sortable tables */
+table.sortable thead {
+    background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+}
+
+
+table {
+  border-collapse: collapse;
+  border: 1px solid gray;
+  width: 50%;
+  float: left;
+}
+div
+{
+  margin:0;
+  padding:0;
+}
+
+th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color:
+}
+tbody {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color:
+}
+thead {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color:
+}
+.table-fixed thead th {
+    position: sticky;
+    position: -webkit-sticky;
+    /*top: 0;*/
+    top:55px; /* the height of the fixed nav-bar */
+    z-index: 999;
+    background-color: #000;
+    color: #fff;
+}
+
+
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-title{
+    color:Green;
